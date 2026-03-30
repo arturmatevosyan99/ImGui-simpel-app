@@ -31,13 +31,6 @@ cmake --build build -j
 ./build/imgui_creative_showcase
 ```
 
-## What to Screenshot for Upwork
-1. Full dashboard with active playback (playhead visible in timeline).
-2. Asset selected + properties changed + toast notification visible.
-3. Alternate dynamic state (pause/play toggle, different selected asset, active event log updates).
-
-Optional: capture a 5-8 second video/GIF showing timeline playhead motion and notification transitions.
-
 ## Code Handoff Notes
 - Entry point: `src/main.cpp`
 - State and animation data: `src/app_state.h` and `src/app_state.cpp`
